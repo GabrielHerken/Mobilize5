@@ -1,0 +1,15 @@
+{
+    "name": "Educação Física",
+    "modules": [
+        {
+            "name": "Introdução",
+            "description": "Conceitos básicos da Educação Física, como sua origem, fundamentos e componentes do condicionamento físico.",
+            "path": "introduction"
+        },
+        {
+            "name": "Esportes",
+            "description": "Tipos de esportes, suas classificações, características e contribuições para o desenvolvimento motor e social.",
+            "path": "sports"
+        }
+    ]
+}

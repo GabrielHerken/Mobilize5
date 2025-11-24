@@ -1,0 +1,15 @@
+{
+    "name": "Matemática",
+    "modules": [
+        {
+            "name": "Aritimética",
+            "description": "bla bla bla bla",
+            "path": "arithmetic"
+        },
+        {
+            "name": "Geometria Plana",
+            "description": "bla bla bla",
+            "path": "plain-geometry"
+        }
+    ]
+}

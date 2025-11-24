@@ -1,0 +1,15 @@
+{
+    "name": "Aritimética",
+    "classes": [
+        {
+            "name": "Adição I",
+            "description": "bla bla bla bla",
+            "path": "addition1"
+        },
+        {
+            "name": "Subtração I",
+            "description": "bla bla bla",
+            "path": "subtraction1"
+        }
+    ]
+}

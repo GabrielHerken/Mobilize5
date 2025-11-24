@@ -1,0 +1,15 @@
+{
+    "name": "Introdução",
+    "classes": [
+        {
+            "name": "Origem",
+            "description": "O que é a educação física, seus objetivos, origem, condicionamento físico e introdução das capacidades físicas",
+            "path": "origin"
+        },
+        {
+            "name": "Condicionamento Físico",
+            "description": "Novos componentes não citados na aula anterior e benefícios da atividade física",
+            "path": "physical-conditioning"
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #181818;
+    --container-background-color: #e6e6e6;
+    --curso-caixa-background: radial-gradient(circle at 10% 10%, #ffffff, #e4e4e4);
+    --curso-logo-tamanho: 50px;
+    --curso-caixa-tamanho: 300px;
+    --curso-titulo-tamanho: 1.6rem;
+    --curso-caixa-padding: 15px;
+    --curso-caixa-borda: #b6b6b6;
+    --curso-caixa-sombra-tamanho: 25px;
+    --curso-caixa-sombra-cor: rgba(0, 0, 0, 0.24);
+    --curso-caixa-column-gap: 12px;
+    --curso-descricao-tamanho: 1rem;
+    --curso-top-middle-gap: 15px;
+    --curso-titulo-weight: 600;
+    --curso-descricao-weight: 400;
+    --curso-descricao-line-height: 7px;
+    --curso-professor-tamanho: .8rem;
+    --curso-professor-cor: rgb(100, 100, 100);
+    --curso-professor-weight: 500;
+    --curso-botao-largura: 130px;
+    --curso-botao-altura: 40px;
+    --curso-botao-texto-tamanho: 1.2rem;
+    --curso-botao-padding: 20px;
+    --curso-botao-texto-weight: 600;
+    --curso-botao-texto-cor: #ffffff;
+    --curso-botao-cor: rgb(120, 32, 13);
+    --curso-botao-margin: 10px;
+    --curso-botao-sombra-tamanho: 10px;
+    --curso-botao-sombra-cor: rgba(0, 0, 0, 0.205);
+    --curso-botao-cor-hover: rgb(82, 21, 9);
+    --curso-botao-cor-active: rgb(146, 48, 26);
+    --cursos-padding: 30px;
+    --curso-botao-grid-size: 100px;
+    --body-background-color: #f3f3f3;
+    --container-margin-top: 2rem;
+    --container-margin-sideways: max(30px, 5%);
+    --container-sombra-tamanho: 15px;
+    --container-sombra-cor: #adadad;
+    --container-border-radius: 30px;
+    --title-size: 6rem;
+    --title-spacing: 5px;
+    --title-weight: 900;
+}
+
+html {
+    color: var(--text-color);
+}
+
+body {
+    background-color: var(--body-background-color);
+}
+
+.cursos-titulo {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: var(--title-weight);
+    font-size: var(--title-size);
+    letter-spacing: var(--title-spacing);
+    margin: 0 0 var(--container-margin-top);
+    padding: calc(var(--container-margin-top) + 84px) 0 0 0;
+}
+
+.curso-container {
+    background-color: var(--container-background-color);
+    border-radius: var(--container-border-radius);
+    box-shadow: inset 0 0 var(--container-sombra-tamanho) var(--container-sombra-cor);
+    margin: 0 var(--container-margin-sideways) var(--container-margin-sideways);
+    padding: var(--cursos-padding) 0 0 var(--cursos-padding);
+}
+
+.curso-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.curso-container ul li {
+    list-style: none;
+}
+
+.curso-caixa {
+    background-image: var(--curso-caixa-background);
+    width: var(--curso-caixa-tamanho);
+    height: var(--curso-caixa-tamanho);
+    margin: 0 var(--cursos-padding) var(--cursos-padding) 0;
+    border-radius: calc(var(--curso-logo-tamanho)/2 + var(--curso-caixa-padding));
+    border: 1px solid var(--curso-caixa-borda);
+    box-shadow: 0 0 var(--curso-caixa-sombra-tamanho) var(--curso-caixa-sombra-cor);
+    display: grid;
+    grid-template-columns: var(--curso-logo-tamanho) 1fr;
+    grid-template-rows: var(--curso-logo-tamanho) var(--curso-top-middle-gap) 1fr var(--curso-botao-grid-size);
+    grid-template-areas: "logo titulo"
+                         ". ."
+                         "corpo corpo"
+                         "baixo baixo";
+    padding: var(--curso-caixa-padding);
+    column-gap: var(--curso-caixa-column-gap);
+}
+
+.curso-icone {
+    width: var(--curso-logo-tamanho);
+    height: var(--curso-logo-tamanho);
+    grid-area: logo;
+    border-radius: 50%;
+}
+
+.curso-titulo {
+    font-family: 'Montserrat';
+    grid-area: titulo;
+    font-size: var(--curso-titulo-tamanho);
+    align-content: center;
+    font-weight: var(--curso-titulo-weight);
+}
+
+.curso-descricao {
+    grid-area: corpo;
+    font-family: 'Montserrat';
+    font-size: var(--curso-descricao-tamanho);
+    font-weight: var(--curso-descricao-weight);
+    line-height: calc(var(--curso-descricao-tamanho) + var(--curso-descricao-line-height));
+}
+
+.curso-baixo {
+    grid-area: baixo;
+    display: grid;
+    grid-template-rows: 1fr var(--curso-professor-tamanho);
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: var(--curso-botao-margin);
+}
+
+.curso-professor {
+    font-family: 'Montserrat';
+    font-size: var(--curso-professor-tamanho);
+    color: var(--curso-professor-cor);
+    font-weight: var(--curso-professor-weight);
+}
+
+.curso-botao {
+    width: var(--curso-botao-largura);
+    height: var(--curso-botao-altura);
+    border-radius: calc(var(--curso-botao-altura)/2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--curso-botao-padding);
+    font-family: 'Montserrat';
+    font-weight: var(--curso-botao-texto-weight);
+    font-size: var(--curso-botao-texto-tamanho);
+    box-shadow: 0 0 var(--curso-botao-sombra-tamanho) var(--curso-botao-sombra-cor);
+    background-color: var(--curso-botao-cor);
+    color: var(--curso-botao-texto-cor);
+    align-self: flex-end;
+    transition: background-color .1s ease-in-out;
+    border: 0;
+}
+
+.curso-botao:hover {
+    background-color: var(--curso-botao-cor-hover);
+    cursor: pointer;
+}
+
+.curso-botao:active {
+    background-color: var(--curso-botao-cor-active);
+}
