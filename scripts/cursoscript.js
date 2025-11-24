@@ -23,4 +23,4 @@ function handleData(data) {
     }
 }
 
-document.getElementById('back-button').addEventListener('click', (e) => window.location.href = 'index.html')
+document.getElementById('back-button').addEventListener('click', (e) => window.location.href = 'home.html')
