@@ -3,26 +3,59 @@
     "link": "https://www.youtube.com/embed/jTz7fhXyzg0?si=LBm8OxFl4F6Zb6WN",
     "perguntas": [
         {
-            "texto": "Quanto é 2 + 2",
+            "texto": "Quanto é 11 + 5",
             "alternativas": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "16",
+                "32",
+                "51",
+                "115",
+                "6"
             ],
-            "correto": "4"
+            "correto": "1"
         },
         {
-            "texto": "Quanto é 5 - 3",
+            "texto": "Quanto é 15 + 6",
             "alternativas": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
             ],
             "correto": "2"
+        },
+        {
+            "texto": "Quanto é 21 + 12",
+            "alternativas": [
+                "28",
+                "15",
+                "30",
+                "42",
+                "33"
+            ],
+            "correto": "5"
+        },
+        {
+            "texto": "Quanto é 59 + 33",
+            "alternativas": [
+                "75",
+                "82",
+                "92",
+                "105",
+                "72"
+            ],
+            "correto": "3"
+        },
+        {
+            "texto": "Quanto é 192 + 51",
+            "alternativas": [
+                "240",
+                "241",
+                "242",
+                "243",
+                "244"
+            ],
+            "correto": "4"
         }
     ]
 }

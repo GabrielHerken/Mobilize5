@@ -3,12 +3,12 @@
     "classes": [
         {
             "name": "Adição I",
-            "description": "bla bla bla bla",
+            "description": "Como fazer adição entre quaisquer dois números naturais",
             "path": "addition1"
         },
         {
             "name": "Subtração I",
-            "description": "bla bla bla",
+            "description": "Como fazer subtração entre dois números naturais",
             "path": "subtraction1"
         }
     ]

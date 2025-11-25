@@ -3,12 +3,12 @@
     "modules": [
         {
             "name": "Aritimética",
-            "description": "bla bla bla bla",
+            "description": "Operações básicas, frações, e conjuntos numéricos",
             "path": "arithmetic"
         },
         {
             "name": "Geometria Plana",
-            "description": "bla bla bla",
+            "description": "Figuras básicas, seus nomes, classificações, área, propriedades, etc.",
             "path": "plain-geometry"
         }
     ]
