@@ -28,6 +28,7 @@ h1 {
 
 ol {
     justify-items: center;
+    width: 100%;
 }
 
 ol li {
