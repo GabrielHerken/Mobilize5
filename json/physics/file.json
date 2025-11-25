@@ -1,0 +1,15 @@
+{
+    "name": "Física",
+    "modules": [
+        {
+            "name": "Introdução á mecânica",
+            "description": "Introdução aos conceitos básico de mecânica e cinemática com a definição de movimento, grandezas escalares e movimento uniforme",
+            "path": "mec-introduction"
+        },
+        {
+            "name": "Cinemática escalar",
+            "description": "continuação do movimento uniforme e introdução ao movimento uniformemente variado",
+            "path": "blablabla"
+        }
+    ]
+}

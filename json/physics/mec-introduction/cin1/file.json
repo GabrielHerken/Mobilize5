@@ -1,0 +1,28 @@
+{
+    "name": "Cinemática I",
+    "link": "https://www.youtube.com/embed/tf-FamR1Nw0?si=2SBoleReWj39uOR_",
+    "perguntas": [
+        {
+            "texto": "Qual a definição de movimento?",
+            "alternativas": [
+                "Alteraação da posição do corpo ao longo do tempo",
+                "Alteração do referencial do corpo conforme o tempo",
+                "Alteração da posição do corpo ao longo de um instante de tempo",
+                "Mudança da aceleração com o tempo",
+                "Mudança da trajetória durante certo intervalo de tempo"
+            ],
+            "correto": "1"
+        },
+        {
+            "texto": "O que é a velocidade escalar média",
+            "alternativas": [
+                "É a alteração da aceleração",
+                "É a taxa de variação da energia do corpo conforme o tempo",
+                "É a taxa de variação do espaço escalar, em média, ao longo do tempo",
+                "É a taxa de variação do referencial",
+                "É a mudança na intensidade da força peso no decorrer do tempo"
+            ],
+            "correto": "3"
+        }
+    ]
+}

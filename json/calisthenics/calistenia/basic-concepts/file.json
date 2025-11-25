@@ -1,0 +1,39 @@
+{
+    "name": "Conceitos Básicos",
+    "link": "https://www.youtube.com/embed/yqtkFd9nXSs?si=m_osKfdjduqBnS5p",
+    "perguntas": [
+        {
+            "texto": "Onde posso praticar a calistenia?",
+            "alternativas": [
+                "Praças ou Parques",
+                "Qualquer Lugar",
+                "Somente em locais feitos para calistenia",
+                "Academias",
+                "Em casa"
+            ],
+            "correto": "2"
+        },
+        {
+            "texto": "Qual exercício abaixo é da calistenia:",
+            "alternativas": [
+                "Barra Fixa",
+                "Rosca Martelo",
+                "Supino",
+                "Leg Press",
+                "Correr"
+            ],
+            "correto": "1"
+        },
+        {
+            "texto": "O movimento do frog-stand exige:",
+            "alternativas": [
+                "Força, muito treinamento e dedicação",
+                "Equilibrio e pouco treinamento",
+                "Anos de treinamento e muita força nas pernas",
+                "Muita força nos ombros ",
+                "Elasticidade"
+            ],
+            "correto": "2"
+        }
+    ]
+}

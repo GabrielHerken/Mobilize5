@@ -1,0 +1,15 @@
+{
+    "name": "Calistenia",
+    "classes": [
+        {
+            "name": "Conceitos Básicos",
+            "description": "Mostra os conceitos básicos da calistenia, introduzindo exercícios básicos, movimentos iniciais e explicar para o que serve a calistenia, e onde praticá-la",
+            "path": "basic-concepts"
+        },
+        {
+            "name": "Calistenia Intermediária",
+            "description": "Mostra um nível superior da calistenia, mostrando movimentos mais avançados, exercícios mais difíceis, e mostra como montar uma ficha de treinamento",
+            "path": "blablabla"
+        }
+    ]
+}

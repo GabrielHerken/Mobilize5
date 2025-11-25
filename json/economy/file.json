@@ -1,0 +1,15 @@
+{
+    "name": "Economia",
+    "modules": [
+        {
+            "name": "Básico da Economia",
+            "description": "Tudo sobre os conceitos e aplicações mais básicas da economia.",
+            "path": "basics"
+        },
+        {
+            "name": "Economia Intermediária",
+            "description": "Neste módulo vamos aprender sobre como a bolsa de valores funciona e como as ações e títulos financeiros funcionam",
+            "path": "blablabla"
+        }
+    ]
+}

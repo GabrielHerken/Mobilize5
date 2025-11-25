@@ -1,0 +1,15 @@
+{
+    "name": "Calistenia",
+    "modules": [
+        {
+            "name": "Calistenia",
+            "description": "O que é a caslistenia, para que ela serve, como fazer, movimentos e exercícios básicos da calistenia",
+            "path": "calistenia"
+        },
+        {
+            "name": "Treinos Básicos",
+            "description": "Como montar seu primeiro treino de forma inicial, e como melhorar seu progresso",
+            "path": "blablabla"
+        }
+    ]
+}

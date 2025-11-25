@@ -1,0 +1,61 @@
+{
+    "name": "Adam Smith e o Liberalismo",
+    "link": "https://www.youtube.com/embed/jTz7fhXyzg0?si=LBm8OxFl4F6Zb6WN",
+    "perguntas": [
+        {
+            "texto": "Quais foram as principais influências filosóficas que ajudaram Adam Smith a desenvolver suas ideias sobre ética e economia?",
+            "alternativas": [
+                "Platão e Rousseau",
+                "Francis Bacon e David Ricardo",
+                "David Hume e Francis Hutcheson",
+                "Karl Marx e John Stuart Mill",
+                "Montesquieu e Thomas Hobbes"
+            ],
+            "correto": "3"
+        },
+        {
+            "texto": "O conceito da “mão invisível” formulado por Adam Smith está relacionado a:",
+            "alternativas": [
+                "A regulação estatal do mercado",
+                "O equilíbrio automático do mercado pelo interesse individual",
+                "O controle dos preços pela demanda coletiva",
+                "O planejamento centralizado da economia",
+                "A criação de cartéis empresariais"
+            ],
+            "correto": "2"
+        },
+        {
+            "texto": "Para Adam Smith, a divisão do trabalho é fundamental porque:",
+            "alternativas": [
+                "Gera desigualdade social",
+                "Diminui a produtividade dos trabalhadores",
+                "Amplia a produção e a eficiência econômica",
+                "Estimula o isolamento do trabalhador",
+                "Limita o avanço tecnológico"
+            ],
+            "correto": "3"
+        },
+        {
+            "texto": "Uma diferença importante entre o liberalismo clássico e o neoliberalismo moderno é:",
+            "alternativas": [
+                "O liberalismo clássico defende forte intervenção estatal na economia",
+                "O neoliberalismo prioriza políticas de liberdade individual acima da economia",
+                "O liberalismo clássico advoga por mercados livres e menor ingerência estatal, enquanto o neoliberalismo propõe desregulamentação e privatizações amplas",
+                "Ambos propõem controle estatal centralizado",
+                "O neoliberalismo rejeita totalmente o livre mercado"
+            ],
+            "correto": "3"
+        },
+        {
+            "texto": "Segundo Adam Smith, a concorrência tem como principal benefício:",
+            "alternativas": [
+                "A geração de monopólios privados",
+                "A diminuição da produção total",
+                "O aumento da eficiência e oferta de melhores produtos para o consumidor",
+                "O controle dos preços pelo governo",
+                "O enfraquecimento das leis de mercado"
+            ],
+            "correto": "3"
+        }
+    ]
+}

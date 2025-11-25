@@ -1,26 +1,59 @@
 {
     "name": "Origem",
-    "link": "https://www.youtube.com/embed/jTz7fhXyzg0?si=LBm8OxFl4F6Zb6WN",
+    "link": "https://www.youtube.com/embed/kFFTpnBhWMM?si=sNDSWQEOCd5Mcx7e",
     "perguntas": [
         {
-            "texto": "Quanto é 2 + 2",
+            "texto": "A Educação Física começou a ganhar destaque como disciplina escolar em qual período?",
             "alternativas": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "Pré-história",
+                "Grécia Antiga",
+                "Século XX",
+                "Idade Média",
+                "Império Babilônico"
+            ],
+            "correto": "3"
+        },
+        {
+            "texto": "Qual componente do condicionamento físico está mais relacionado à capacidade de manter um esforço por mais tempo?",
+            "alternativas": [
+                "Força",
+                "Flexibilidade",
+                "Resistência",
+                "Velocidade",
+                "Agilidade"
+            ],
+            "correto": "3"
+        },
+        {
+            "texto": "Em qual categoria se encaixa o vôlei?",
+            "alternativas": [
+                "Esporte Individual",
+                "Esporte Coletivo",
+                "Esporte de Precisão",
+                "Esporte de Combate",
+                "Esporte de Invasão"
+            ],
+            "correto": "2"
+        },
+        {
+            "texto": "Qual das alternativas NÃO é característica de esportes de marca?",
+            "alternativas": [
+                "Superar Distância",
+                "Superar Tempo",
+                "Superar Altura",
+                "Ter disputa direta por golpes",
+                "Superar Peso"
             ],
             "correto": "4"
         },
         {
-            "texto": "Quanto é 5 - 3",
+            "texto": "A coordenação motora é essencial principalmente para:",
             "alternativas": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "Aumentar massa muscular",
+                "Controlar e ajustar movimentos com precisão",
+                "Aumentar o tamanho dos músculos",
+                "Aumentar a frequência cardíaca",
+                "Aumentar a força"
             ],
             "correto": "2"
         }

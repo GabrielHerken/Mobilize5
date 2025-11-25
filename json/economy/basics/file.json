@@ -1,0 +1,15 @@
+{
+    "name": "Básico da Economia",
+    "classes": [
+        {
+            "name": "Adam Smith e o Liberalismo",
+            "description": "Nesta aula vamos aprender sobre o \"Pai da economia\", Adam Smith, e entender mais sobre suas filosofias econômicas e como elas se adaptaram ao mundo contemporâneo, e as consequências socias dessa filosofia aplicada.",
+            "path": "adam"
+        },
+        {
+            "name": "Conceitos básicos de economia",
+            "description": "Nesta aula vamos entender como funciona algumas coisas básicas da economia como juros, empréstimos, bolsas de valores, etc. O foco da aula é dar um entendimento básico sobre os conceitos.",
+            "path": "blablabla"
+        }
+    ]
+}

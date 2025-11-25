@@ -1,0 +1,15 @@
+{
+    "name": "Introdução à mecânica",
+    "classes": [
+        {
+            "name": "Cinemática I",
+            "description": "Definição da cinemática e introdução aos conceitos e grandezas relacionadas ao movimento",
+            "path": "cin1"
+        },
+        {
+            "name": "Cinemática II",
+            "description": "Continuação do movimento uniforme e introdução do movimento uniformemente variado",
+            "path": "cin2"
+        }
+    ]
+}
